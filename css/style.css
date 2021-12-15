@@ -213,8 +213,13 @@ input{
         padding: 6px;
     }
     .barre{
-        display:none;
+        display: flex;
+        flex-direction: column;
         margin: 0px 200px;
+        position: absolute;
+        top: 0px;
+        left: -370px;
+    
     }
     body {
         width: 100%;
@@ -237,6 +242,7 @@ input{
     .iconwebsite:hover ~.barre{
         display: flex;
         margin: 0px 22px;
+        position: initial;
     
     }
     
